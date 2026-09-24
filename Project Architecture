@@ -1,0 +1,18 @@
+guvi-automation-project/
+│
+├── pages/
+│   ├── base_page.py
+│   ├── home_page.py
+│   ├── login_page.py
+│   └── register_page.py
+│
+├── tests/
+│   ├── conftest.py
+│   └── test_guvi_suite.py
+│
+├── reports/
+│   └── (Generated HTML/Extent test reports)
+│
+├── README.md
+├── requirements.txt
+└── pytest.ini
