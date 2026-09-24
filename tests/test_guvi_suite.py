@@ -51,7 +51,7 @@ def test_tc5_register_navigation(driver):
 def test_tc6_valid_login(driver):
     login_page = LoginPage(driver)
     login_page.open()
-    login_page.login("javed2793@gmail.com", "Izhaan@2793")
+    login_page.login("validusername@gmail.com", "valid password")
     WebDriverWait(driver, 15).until(lambda d: "sign-in" not in d.current_url)
     assert "guvi.in" in driver.current_url and "sign-in" not in driver.current_url
 
